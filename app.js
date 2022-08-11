@@ -24,7 +24,8 @@ entradaDados.question('Bem vindo, a tabuada inteligente!! \nQual a primeira tabu
         process.exit(0);
     } 
     if(inicial < 2 || inicial > 100){
-        console.log('Por favor, apenas números entre 2 e 100')
+        console.log('Por favor, apenas números entre 2 e 100');
+        process.exit(0);
     } 
 
     entradaDados.question('Qual a última tabuada que deseja ver? ', function(valorFinal){
